@@ -12,3 +12,16 @@
 h1, h2, h3, h4, h5 {
 	color: #8382BF;
 }
+
+/* 2d. Set image size for friends */
+.friend {
+	max-width: 300px;
+}
+
+.nameOfFriend{}  /* for identifying friend's name → 4 */
+
+/* Bonus */
+.fakeFriend{}  /* for identifying fake friend */
+.warning{  /* for note message */
+	color: #DE1F77;
+}

@@ -3,5 +3,8 @@ var data = require('../data.json');
 
 exports.view = function(request, response){
 	console.log(data);
-	response.render('index');
+
+	// 2b. Pass the friend JSON to the template
+	response.render('index', data);
+
 };
